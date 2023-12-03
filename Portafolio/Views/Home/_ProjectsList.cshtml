@@ -7,7 +7,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             @foreach (var project in Model)
             {
-                <div class="col">
+                <div class="col projects-container">
                     <div class="card h-100">
                         <img src="@project.ImageURL" class="card-img-top" alt="project image" />
                         <div class="card-body">
@@ -15,7 +15,7 @@
                             <p class="card-text">@project.Description</p>
                         </div>
                         <div class="card-footer">
-                            <a class="btn btn-primary" href="@project.Link" target="_blank" rel="noopener noreferrer">Visitar</a>
+                            <a class="btn" href="@project.Link" target="_blank" rel="noopener noreferrer">Visitar</a>
                         </div>
                     </div>
                 </div>

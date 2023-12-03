@@ -20,10 +20,22 @@
 
 #dotnet-image {
     width: 500px;
+
+    @media (max-width: 768px){
+        width: 300px;
+    }
+}
+
+.bg-color {
+    background-color: #5942D5;
 }
 
 .header-text {
     font-weight: bold;
+}
+
+.skills {
+
 }
 
 .skills ul {
@@ -34,4 +46,9 @@
 .skills i {
     color: #0d6efd;
     font-size: 50px;
+}
+
+.projects-container a {
+    color: white;
+    background-color: #5942D5;
 }
